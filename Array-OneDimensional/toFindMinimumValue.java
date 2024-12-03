@@ -1,0 +1,2 @@
+public class toFindMinimumValue {
+}
