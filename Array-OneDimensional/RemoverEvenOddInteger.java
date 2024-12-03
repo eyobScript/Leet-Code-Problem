@@ -15,9 +15,26 @@ public class RemoverEvenOddInteger {
          }
          int[] newArray = new int[oddCounter];
          int idx = 0;
-         for (int i = 0; i < arr.length; i++) {
-             if (arr[i] % 2 != 0){
-                 newArray[idx] = arr[i];
+         for (int j : arr) {
+             if (j % 2 != 0) {
+                 newArray[idx] = j;
+                 idx++;
+             }
+         }
+         printArray(newArray);
+     }
+     public static void RemoveOdd(int[] arr){
+         int evenCount = 0;
+         for (int a : arr){
+             if (a % 2 == 0){
+                 evenCount++;
+             }
+         }
+         int[] newArray = new int[evenCount];
+         int idx = 0;
+         for(int a : arr){
+             if (a % 2 == 0){
+                 newArray[idx] = a;
                  idx++;
              }
          }
@@ -25,6 +42,7 @@ public class RemoverEvenOddInteger {
      }
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5,6,7,8,9,3};
-        RemoveEven(arr);
+        RemoveEven(arr); // 1 3 5 7 9 3
+        RemoveOdd(arr); // 2 4 6 8
     }
 }
