@@ -4,18 +4,20 @@ public class toFindSecondMaximum {
     }
     static void findSecondMax(int[] arr){
         int max = Integer.MIN_VALUE;
-        int secondMax = Integer.MAX_VALUE;;
+        int secondMax = Integer.MIN_VALUE;;
         for (int i = 0; i < arr.length; i++) {
-            if (true){
-
-            }else {
-
+            if (arr[i] > max){
+                secondMax = max;
+                max = arr[i];
+            }else if(max != arr[i] && secondMax < arr[i]){
+                secondMax = arr[i];
             }
         }
+        printer(secondMax);
     }
 
     public static void main(String[] args) {
-        int[] arr = {2,34,5,6,4,5};
+        int[] arr = {13,34,2,34,33,1};
         findSecondMax(arr);
 
     }
