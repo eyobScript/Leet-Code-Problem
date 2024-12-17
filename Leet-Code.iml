@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Array-OneDimensional" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Array-TwoDimensional" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02-SinglyLinkedList" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
