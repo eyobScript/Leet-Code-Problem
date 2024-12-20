@@ -25,10 +25,10 @@ public class Implement {
         ListNode sired = new ListNode(3);
         ListNode forth = new ListNode(4);
 // we connect them together
-         sll.Head.next = second;
-         second.next = sired;
-         sired.next = forth;
-         //print
+        sll.Head.next = second;
+        second.next = sired;
+        sired.next = forth;
+        //print
 
         sll.display();
     }
