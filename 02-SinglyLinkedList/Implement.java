@@ -21,9 +21,9 @@ public class Implement {
     public static void main(String[] args) {
         Implement sll = new Implement();
         sll.Head = new ListNode(1);
-         ListNode second = new ListNode(2);
-         ListNode sired = new ListNode(3);
-         ListNode forth = new ListNode(4);
+        ListNode second = new ListNode(2);
+        ListNode sired = new ListNode(3);
+        ListNode forth = new ListNode(4);
 // we connect them together
          sll.Head.next = second;
          second.next = sired;
