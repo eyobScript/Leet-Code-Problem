@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/02-SinglyLinkedList" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/00_Basic_Implementation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
