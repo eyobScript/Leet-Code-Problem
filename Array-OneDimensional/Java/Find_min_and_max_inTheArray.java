@@ -1,4 +1,4 @@
-package Array_Question;
+package Java;
 
 public class Find_min_and_max_inTheArray {
     public static void print(int min, int max) {
