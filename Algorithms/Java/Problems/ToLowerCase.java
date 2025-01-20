@@ -1,5 +1,3 @@
-package Problems;
-
 public class ToLowerCase {
         public String toLowerCase(String s) {
             StringBuilder result = new StringBuilder();
