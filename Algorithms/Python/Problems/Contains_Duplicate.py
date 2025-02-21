@@ -12,3 +12,8 @@ def containsDuplicate(nums):
 
 
 print(containsDuplicate([1,2,3,1]))
+
+# Time complexity
+#      O(n)
+# Space complexity
+#      O(n)
